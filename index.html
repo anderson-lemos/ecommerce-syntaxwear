@@ -3,66 +3,83 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>SyntaxWear — Ecommerce</title>
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/variables.css">
-    <link rel="stylesheet" href="./css/base.css">
-    <link rel="stylesheet" href="./css/layout.css">
+    <title>SyntaxWear - Tênis e Sneakers Online</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/variables.css" />
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/layout.css" />
+    <link rel="stylesheet" href="./css/components/header.css">
   </head>
   <body>
     <!-- Header: logo e navegação -->
-    <header class="site-header" role="banner">
-      <div class="container">
-        <div class="header-inner">
-          <div class="brand" aria-label="logo do site">
-            <!-- logo placeholder -->
-          </div>
-          <nav
-            class="site-nav"
-            role="navigation"
-            aria-label="Navegação principal"
-          >
-            <!-- links de navegação -->
-          </nav>
-        </div>
-      </div>
+    <header class="site-header">
+      <h1 class="logo">
+        <a href="/" title="SyntaxWear - Tênis e Sneakers Online">
+          <img
+            src="./images/logo/logo.png"
+            alt="SyntaxWear - Tênis e Sneakers Online"
+          />
+        </a>
+      </h1>
+
+      <nav class="nav-center" aria-label="Categorias Principais">
+        <ul>
+          <li><a href="#">Masculino</a></li>
+          <li><a href="#">Feminino</a></li>
+          <li><a href="#">Outlet</a></li>
+        </ul>
+      </nav>
+
+      <nav class="nav-secondary" aria-label="Menu secundário">
+        <ul>
+          <li><a href="#">Nossas lojas</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li>
+            <a href="#" aria-label="Minha Conta">
+              <img src="./images/icons/perfil.png" alt="Minha Conta">
+            </a>
+          </li>
+          <li>
+            <a href="#" aria-label="Ajuda">
+              <img src="./images/icons/ajuda.png" alt="Ajuda">
+            </a>
+          </li>
+          <li>
+            <a href="#" aria-label="Carrinho de compras">
+              <img src="./images/icons/carrinho.png" alt="Carrinho">
+            </a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <!-- Hero -->
-    <section class="hero" aria-label="Main hero">
-      <div class="container">
-        <!-- conteúdo do hero (a ser preenchido) -->
-      </div>
+    <section class="hero">
+      <!-- conteúdo do hero (a ser preenchido) -->
     </section>
 
     <!-- Shoe categories -->
-    <section class="categories" aria-label="Shoe categories">
-      <div class="container">
-        <!-- estrutura de categorias (macro) -->
-      </div>
+    <section class="categories">
+      <!-- estrutura de categorias (macro) -->
     </section>
 
     <!-- Featured products (grid) -->
     <main role="main">
-      <section class="featured" aria-label="Featured products">
-        <div class="container">
-          <div class="product-grid">
-            <!-- células do grid (macro) -->
-          </div>
-        </div>
+      <section class="featured">
+        <ul class="product-grid">
+          <!-- cells do grid (macro) -->
+        </ul>
       </section>
     </main>
 
     <!-- Footer: informações de contato e links -->
     <footer class="site-footer" role="contentinfo">
-      <div class="container">
-        <div class="footer-contact">
-          <!-- informações de contato -->
-        </div>
-        <div class="footer-links">
-          <!-- links úteis -->
-        </div>
-      </div>
+      <address class="footer-contact">
+        <!-- informações de contato -->
+      </address>
+      <nav class="footer-links">
+        <!-- links úteis -->
+      </nav>
     </footer>
   </body>
 </html>
