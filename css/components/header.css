@@ -1,7 +1,7 @@
 header{
     background-color:#ffffff;
     position: fixed;
-    top: 20px;
+    top: 21px;
     left: 50%;
     transform: translateX(-50%);
     width: calc(100% - 40px);
