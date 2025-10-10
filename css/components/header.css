@@ -10,7 +10,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 12px 20px;
+    padding: 16px 22px;
 }
 
 .logo img{
@@ -26,6 +26,7 @@ header{
 .nav-center a,
 .nav-secondary a{
     font-size:1.25rem;
+    color: #333333;
 
 }
 
