@@ -27,7 +27,7 @@
 }
 .sneaker-color{
     grid-area: sneaker-color;
-    background: url(../../images/products/tênis\ colorido.jpg) no-repeat center;
+    background: url(../../images/products/colorido.jpg) no-repeat center;
     background-size: cover;
 }
 .sneaker-white{
